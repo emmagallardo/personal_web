@@ -1,0 +1,641 @@
+header{
+    background-image: linear-gradient(#0081a7,#00afb9);
+    padding :20px;
+    color:#fdfcdc;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+a{
+    color:#fdfcdc;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+html{
+    background-image: linear-gradient(#fed9b7, #f07167) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+main{
+    display: block;
+    padding: 10px;
+    background-color:#fdfcdc ;
+}
+
+.home-text{
+    color:black;
+    text-align: center;
+}
+
+footer{
+    background-color: #f07167;
+}
+
+table{
+    width: 100%;
+}
+
+.text-column-style-2{
+    text-align: center;
+}
+
+#image_list{
+    list-style: none;
+}
+
+
+@media (min-width:900px){
+    .navLink{
+        padding: 10px;
+        display:inline-table;
+    }
+    .column-table{
+        width:100%;
+    }
+    .column{
+        width:45%;
+        padding:10px;
+    }
+
+    #home-image{
+        width:700px;
+    }
+    
+    #academic-columns{
+        padding-left: 75px;
+    }
+    .card{
+        display: flex;
+        align-content: center;
+    }
+
+    .card-top{
+        width:200px;
+    }
+    .card-image{
+        width:200px;
+    }
+    .card-bottom{
+        background-color: #00afb9;
+        color:#fdfcdc;
+        text-align: center;
+    }
+
+    .text-column{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #about-animation {
+        width:500px;
+        height: 700px;
+        animation: ani-a 20s 5s infinite;
+        background-image: url("images/senior/senior1.JPEG");
+        background-size:contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    
+
+    @keyframes ani-a {
+
+        0% {background-image: url("images/senior/senior1.JPEG");}
+        14% {background-image: url("images/senior/senior2.JPEG");}
+        28% {background-image: url("images/senior/IMG_9254.jpg");}
+        42% {background-image: url("images/senior/senior4.JPG");}
+        57% {background-image: url("images/senior/IMG_8404.JPEG");}
+        71% {background-image: url("images/senior/senior3.JPG");}
+        100% {background-image: url("images/senior/senior5.JPG");}
+    }
+
+
+    #travel-image img{
+        width:200px;
+    }
+
+    #softball-images li{
+        display:inline;
+    }
+
+    #softball-images img{
+        width:100px;
+        height:100px;
+        object-fit: cover;
+    }
+
+    #softball-column td{
+        display:inline;
+    }
+
+    #main_image{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width:800px) and (max-width:900px){
+    .navLink{
+        padding: 10px;
+        display:inline-table;
+    }
+    .column-table{
+        width:100%;
+    }
+    .column{
+        width:45%;
+        padding:10px;
+    }
+
+    #home-image{
+        width:600px;
+    }
+    #about-table img{
+        width:200px;
+    }
+    #academics{
+        width:100%;
+        padding: 10px;
+    }
+    #image-academics{
+        height: 50px;
+    }
+
+    .card{
+        display: flex;
+        align-content: center;
+    }
+
+    .card-image{
+        width:200px;
+    }
+    .card-bottom{
+        background-color: #00afb9;
+        color:#fdfcdc;
+        width:200px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-column{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #about-animation {
+        height: 400px;
+        animation: ani-a 20s 5s infinite;
+        background-image: url("images/senior/senior1.JPEG");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    @keyframes ani-a {
+
+        0% {background-image: url("images/senior/senior1.JPEG");}
+        14% {background-image: url("images/senior/senior2.JPEG");}
+        28% {background-image: url("images/senior/IMG_9254.jpg");}
+        42% {background-image: url("images/senior/senior4.JPG");}
+        57% {background-image: url("images/senior/IMG_9254.jpg");}
+        71% {background-image: url("images/senior/senior3.JPG");}
+        100% {background-image: url("images/senior/senior5.JPG");}
+    }
+
+    #travel-image img{
+        width:100px;
+    }
+
+    #softball-images li{
+        display:inline;
+    }
+
+    #softball-images img{
+        width:50px;
+        height:50px;
+        object-fit: cover;
+    }
+
+    #softball-column td{
+        display:inline;
+    }
+
+    #main_image{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+}
+
+@media (min-width:650px) and (max-width:800px){
+    .navLink{
+        padding: 10px;
+        display:inline-table;
+    }
+    .column-table{
+        width:100%;
+    }
+    .column{
+        width:45%;
+        padding:10px;
+    }
+
+    #home-image{
+        width:500px;
+    }
+    #about-table img{
+        width:100px;
+    }
+
+    #academic-image{
+        width:300px;
+    }
+    #image-academics{
+        height: 40px;
+    }
+
+    #professional-table td{
+        display: inline-block;
+    }
+
+    .card{
+        display: flex;
+        align-content: center;
+        padding: 20px;
+    }
+
+    .card-image{
+        width:200px;
+    }
+    .card-bottom{
+        background-color: #00afb9;
+        color:#fdfcdc;
+        width:200px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #about-animation {
+        height: 400px;
+        animation: ani-a 20s 5s infinite;
+        background-image: url("images/senior/senior1.JPEG");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    @keyframes ani-a {
+
+        0% {background-image: url("images/senior/senior1.JPEG");}
+        14.29% {background-image: url("images/senior/senior2.JPEG");}
+        28.57% {background-image: url("images/senior/IMG_9254.jpg");}
+        42.86% {background-image: url("images/senior/senior4.JPG");}
+        57.15% {background-image: url("images/senior/IMG_9254.jpg");}
+        71.44% {background-image: url("images/senior/senior3.JPG");}
+        100% {background-image: url("images/senior/senior5.JPG");}
+    }
+
+    #travel-image{
+        display: list-item;
+        list-style: none;
+    }
+
+    #travel-image img{
+        width: 200px;
+    }
+
+    #softball-images li{
+        display:inline;
+    }
+
+    #softball-images img{
+        width:50px;
+        height:50px;
+        object-fit: cover;
+    }
+
+    #softball-column td{
+        display:inline;
+    }
+
+    #main_image{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:650px){
+    .navLink{
+        padding: 10px;
+        display: list-item;
+    }
+    #home-image{
+        width:400px;
+    }
+    #about-columns td{
+        display: inline-block;
+    }
+    #about-table img{
+        width:100px;
+    }
+    #academic-columns{
+        display:inline-block;
+    }
+    #academic-image{
+        width:200px;
+    }
+    #image-academics{
+        height: 40px;
+    }
+
+    .text-column img{
+        width:200px
+    }
+    .card{
+        display: flex;
+        align-content: center;
+    }
+    #professional-table td{
+        display: inline-block;
+    }
+    .card-image{
+        width:300px;
+    }
+    .card-bottom{
+        background-color: #00afb9;
+        color:#fdfcdc;
+        width:300px;
+        text-align: center;
+    }
+
+    
+    #about-animation {
+        height: 400px;
+        animation: ani-a 20s 5s infinite;
+        background-image: url("images/senior/senior1.JPEG");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    @keyframes ani-a {
+
+        0% {background-image: url("images/senior/senior1.JPEG");}
+        14.29% {background-image: url("images/senior/senior2.JPEG");}
+        28.57% {background-image: url("images/senior/IMG_9254.jpg");}
+        42.86% {background-image: url("images/senior/senior4.JPG");}
+        57.15% {background-image: url("images/senior/IMG_9254.jpg");}
+        71.44% {background-image: url("images/senior/senior3.JPG");}
+        100% {background-image: url("images/senior/senior5.JPG");}
+    }
+    #hobbies td{
+        display: inline-block;
+    }
+
+    #travel-image{
+        display: list-item;
+        list-style: none;
+    }
+
+    #travel-image img{
+        width: 200px;
+    }
+
+    #softball-images li{
+        display:inline;
+    }
+
+    #softball-images img{
+        width:25px;
+        height:25px;
+        object-fit: cover;
+    }
+
+    #softball-column td{
+        display:inline;
+    }
+
+    #main_image{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width:350px) and (max-width: 500px){
+    .navLink{
+        padding: 10px;
+        display: list-item;
+    }
+    #home-image{
+        width:200px;
+    }
+    #about-columns td{
+        display: inline-block;
+    }
+    #about-table img{
+        width:100px;
+    }
+    #academic-columns{
+        display:inline-block;
+    }
+    #academic-image{
+        width:100px;
+    }
+    #image-academics{
+        height: 10px;
+    }
+
+    .text-column img{
+        width:200px
+    }
+    #professional-table td{
+        display: inline-block;
+    }
+    .card-image{
+        width:300px;
+    }
+    .card-bottom{
+        background-color: #00afb9;
+        color:#fdfcdc;
+        width:300px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #about-animation {
+        height: 350px;
+        animation: ani-a 20s 5s infinite;
+        background-image: url("images/senior/senior1.JPEG");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    @keyframes ani-a {
+
+        0% {background-image: url("images/senior/senior1.JPEG");}
+        14.29% {background-image: url("images/senior/senior2.JPEG");}
+        28.57% {background-image: url("images/senior/IMG_9254.jpg");}
+        42.86% {background-image: url("images/senior/senior4.JPG");}
+        57.15% {background-image: url("images/senior/IMG_9254.jpg");}
+        71.44% {background-image: url("images/senior/senior3.JPG");}
+        100% {background-image: url("images/senior/senior5.JPG");}
+    }
+    #hobbies td{
+        display: inline-block;
+    }
+
+    #travel-image{
+        display: list-item;
+        list-style: none;
+    }
+
+    #travel-image img{
+        width: 200px;
+    }
+
+    #softball-images li{
+        display:inline;
+    }
+
+    #softball-images img{
+        width:25px;
+        height:25px;
+        object-fit: cover;
+    }
+
+    #softball-column td{
+        display:inline;
+    }
+
+    #main_image{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:350px){
+    #secondaryHead{
+        display:inline-block;
+    }
+    #primaryHead{
+        display:none;
+    }
+    .navLink{
+        padding: 5px;
+        display: list-item;
+    }
+
+    #home-text{
+        display:none;
+    }
+    #home-image{
+        display:none;
+    }
+    #about-columns td{
+        display: inline-block;
+    }
+    #about-table img{
+        width:50px;
+    }
+
+    .text-column img{
+        width:200px
+    }
+    #academic-columns{
+        display:inline-block;
+    }
+    #academic-image{
+        width:100px;
+    }
+    #image-academics{
+        width:20px;
+    }
+
+    #professional-table td{
+        display: inline-block;
+    }
+
+    .card-image{
+        width:200px;
+    }
+    .card-bottom{
+        background-color: #00afb9;
+        color:#fdfcdc;
+        width:200px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #about-columns{
+        display: inline-flex;
+    }
+
+    #about-animation {
+        height: 350px;
+        animation: ani-a 20s 5s infinite;
+        background-image: url("images/senior/senior1.JPEG");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    @keyframes ani-a {
+
+        0% {background-image: url("images/senior/senior1.JPEG");}
+        14.29% {background-image: url("images/senior/senior2.JPEG");}
+        28.57% {background-image: url("images/senior/IMG_9254.jpg");}
+        42.86% {background-image: url("images/senior/senior4.JPG");}
+        57.15% {background-image: url("images/senior/IMG_9254.jpg");}
+        71.44% {background-image: url("images/senior/senior3.JPG");}
+        100% {background-image: url("images/senior/senior5.JPG");}
+    }
+
+    #hobbies td{
+        display: inline-block;
+    }
+
+    #travel-image{
+        display: list-item;
+        list-style: none;
+    }
+
+    #travel-image img{
+        width: 200px;
+    }
+
+    #softball-images li{
+        display:inline;
+    }
+
+    #softball-images img{
+        width:25px;
+        height:25px;
+        object-fit: cover;
+    }
+
+    #softball-column td{
+        display:inline;
+    }
+
+    #main_image{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
